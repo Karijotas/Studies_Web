@@ -1,0 +1,141 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    margin:0px;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%) ;
+    
+    display: grid;
+    
+    grid-template-columns:1fr 1fr;
+    align-items: center;
+    align-content: center;
+
+    
+
+}
+
+.image{
+    background-image:url(images/image-product-desktop.jpg);
+    width:40%;
+    height:40%;
+    background-position-x: center;
+    background-size: cover;
+    background-color: aliceblue;
+    justify-self: end;
+    border-top-left-radius: 4%;
+    border-bottom-left-radius: 3%;
+    
+    
+}
+
+
+.text{
+   
+    background-color:white ;
+    width: 40%;
+    height: 40%;
+    justify-self: start;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-content: center;  
+    
+    
+
+    border-top-right-radius: 4%;
+    border-bottom-right-radius: 3%;
+    
+}
+.perfume{
+    text-transform:uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: lighter;
+    letter-spacing: 6px;
+    margin-left: 10%;
+    margin-top: 20%;
+    margin-bottom: -3%;
+    font-size: 1.5vmin;
+    color: hsl(228, 12%, 48%);
+
+}
+
+.header{
+    text-align: left;
+    font-family: fraunces;
+    font-size: 2.1vw;
+    margin-left: 10%;
+    margin-right: 20%;
+
+    
+    
+}
+
+p{
+    font-size: auto;
+    line-height: 150%;
+    font-family: montserrat;
+    margin-left: 10%;
+    font-size: 1.9vmin;
+    color:hsl(228, 12%, 48%);
+    margin-right: 2vw;
+
+
+}
+
+.values{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: -2%;
+    margin-bottom: -2%;
+
+}
+p.price{
+    font-family: fraunces;
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
+    font-size:4vh;
+}
+p.old__price{
+    text-decoration: line-through ;
+    color:hsl(228, 12%, 48%);    
+}
+
+.button{
+    background-color: hsl(158, 36%, 37%);
+    border:none;
+    border-radius:1vh;
+    padding:1vw;
+    width:80%;
+    font-weight:bold ;
+    color: white;
+    font-size: 1vw;
+    font-family: montserrat;
+    margin-left: 10%;
+    margin-bottom: 15%;
+    background-image: url(images/icon-cart.svg);
+    background-size:1.7vmin;
+    background-repeat: no-repeat;
+    background-position-y:center;
+    background-position-x:3vw;
+    opacity: 1;
+}
+.button:hover{
+    background-color: hsl(159, 38%, 19%);
+}
+.button:active{
+    box-shadow: 0 0.5px #666;
+    transform: translateY(1px);
+  }
+
+
