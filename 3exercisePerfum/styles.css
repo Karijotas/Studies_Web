@@ -44,10 +44,12 @@ body{
     background-color:white ;
     width: 40%;
     height: 40%;
+    min-width:min-content;
     justify-self: start;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     align-content: center;  
+
     
     
 
