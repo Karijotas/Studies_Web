@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:rgb(243, 234, 183) ;">
+  <header style="padding-inline: 3%;padding-top: 2%;">  
+    <h1 style="background-color:rgb(240, 194, 12) ; text-indent: 0.2%;padding: 3%;">Logo 
+        
+       
+    </h1> 
+    <h2>
+        <nav style=" background-color:rgb(91, 7, 7);padding: 1%; text-align: center; color: aliceblue;margin-top: -2%;">
+            <a style="color: aliceblue; text-decoration: none;"href="/index.html">News</a>
+            |
+
+            <a style="color: aliceblue; text-decoration: none;"href="/photoGallery.html">Photo Gallery</a>
+            |
+            <a style="color: aliceblue; text-decoration: none;" href="/registration.html">Registration</a>
+        </nav>
+    </h2>
+    
+</header>
+
+
+  <figure style="margin-left: auto; margin-right: auto; height: 100%; width: 100%; margin-top: -0.5%; ">
+    <p style="text-align: left;">
+        <img src="images/autum_large1(1).jpg" alt="pavasaris" style="border: 0.3cm; border-style: solid; border-color: aliceblue; border-radius: 0.5cm; padding: 0; display: block; margin:0 auto; height: 100%; max-width: 93%;">
+
+        </p>
+  </figure>
+
+
+  <figure style="background-color:white ;text-indent: 0.3%; margin: 3%; padding: 3%;">
+    
+    <h1>Registration</h1>
+    
+    
+        <form style="padding: 10%;" action="/registration.html" method="get" autocomplete="on"  ">
+            <fieldset >
+                <legend>RegForm</legend>
+                    
+                
+                <table style="width: 100%;">
+
+                   <tr>
+                   
+                    <th> <label for="fname"> Name</label>  </th>
+                    <th><input  type="text" name="fname" ><br>  </th>
+               
+                    
+                
+                   </tr>  
+                   <tr>
+                    <th><label for="fpassword"> Password</label></th>
+                    <th><input type="password" name="fpassword"  ><br></th>
+                   </tr>
+
+                   <tr>
+                    <th><label for="femail"> Email</label></th>
+                    <th><input type="email" name="femail" ><br></th>
+                   </tr>
+            
+                   <tr>
+                    <th><label for="fdate"> Date</label> </th>
+                    <th><input type="date" name="fdate" ><br></th>
+                   </tr>
+            
+                   <tr>
+                    <th><label for="fphone" > PhoneNo</label></th>
+                    <th><input type="number" name="fphone" ><br></th>
+                   </tr>
+                   
+                   <tr>
+                    <th><label for="fselect">Select File</label></th>
+                    <th><input type="file" name="fselect" ><br></th>
+                   </tr>
+
+                   <tr>
+                    <th>Gender</th>
+                    <th> <input type="radio" name="fgenmale" id="male" value="MALE"><label for="fgenmale">Male</label>
+
+                <input type="radio" name="fgenfemale" id="female" value="FEMALE"><label for="fgenfemale">Female</label></th>
+                   </tr>
+           
+                   <tr>
+                    <th>Language</th>
+                    <th><input type="checkbox"  id="english" name="English" value="English">
+                    <label for="English">English</label>
+                    <input type="checkbox"  id="hindi" name="Hindi" value="Hindi">
+                    <label for="Hindi">Hindi</label>
+                    </th>
+                   </tr>
+
+            
+                   <tr>
+                    <th><label for="fcourse">Course</label></th>
+                    <th><select style="background-color:white;" name="courses" id="courses">
+                  <option value="CS">CS</option>
+                  <option value="Java">Java</option>
+                  <option value="Python">Python</option>
+                  <option value="Rust">Rust</option>
+                </select> </th>
+                   </tr>
+                    <tr>
+                        <th><label for="comment">Comment</label></th>
+                        <th><textarea id="comment" name="comments" rows="5" cols="20"> </textarea></th>
+                    </tr>
+           
+                    <tr>
+                       <th>
+                        <button type="button"style="margin:0.5%">RegisterNow</button>
+           <button type="button">Refresh</button>
+                       </th>
+                    </tr>
+                </table>
+                    
+            </fieldset>
+        
+        </form>
+        
+  </figure>
+
+  <footer style="padding-inline: 3%;padding-top: 2%;">
+      
+    <h2 style="background-color:rgb(240, 194, 12) ; text-indent: 0.2%;padding: 1%; margin-top: -4.5%; text-align: center;">Copyright &copy; Mantas Povilas</h2> 
+</footer>
+</body>
+</html>
