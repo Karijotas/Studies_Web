@@ -1,0 +1,134 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.background{
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns:2fr 1fr  90px 5px;
+    align-items: center;
+    justify-items: left;
+    padding:5px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-bottom: 2vh;
+    margin-bottom: 4vh;
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    border-bottom: 0.01cm;
+    border-color: black;
+    border-style:solid;    
+}
+
+.logo{
+    background-image: url(images/logo.svg);
+    background-repeat: no-repeat;
+    width: 1fr;
+    height: 1fr;
+    background-position:left ;
+}
+
+.nav-links{
+    list-style-type: none;
+    margin-left: 7vw;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 10px;
+    font-family: kumbh sans;
+    font-weight: 400;
+    
+}
+.shopping-cart{
+    background-image: url(images/icon-cart.svg);
+    background-position:right;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    color: white;
+    justify-self:right;
+    
+}
+.profile{
+    background-image: url(images/image-avatar.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-size: contain;
+    justify-self: right;
+}
+.main{
+    font-family: kumbh sans;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5vw 40vh;
+    gap:30px;
+}
+
+.images{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-area:unset;
+    gap:30px;
+    align-content:;
+    justify-content: left;
+}
+.central{
+    background-image: url(images/image-product-1.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+    border-radius: 3%;
+    
+}
+.first{
+    background-image: url(images/image-product-1-thumbnail.jpg);
+    width:90px;
+    height:90px;
+    background-size:contain;
+    border-radius: 10%;
+    border: 3px;
+    border-color: hsl(26, 100%, 55%);
+    border-style: solid;
+}
+.second{
+    background-image: url(images/image-product-2-thumbnail.jpg);
+    width:90px;
+    height:90px;
+    background-size:contain;
+    border-radius: 10%;
+    border: 3px;
+    border-color: hsl(26, 100%, 55%);
+    border-style: solid;
+}
+.third{
+    background-image: url(images/image-product-3-thumbnail.jpg);
+    width:90px;
+    height:90px;
+    background-size:contain;
+    border-radius: 10%;
+    border: 3px;
+    border-color: hsl(26, 100%, 55%);
+    border-style: solid;
+}
+.fourth{
+    background-image: url(images/image-product-4-thumbnail.jpg);
+    width:90px;
+    height:90px;
+    background-size:contain;
+    border-radius: 10%;
+    border: 3px;
+    border-color: hsl(26, 100%, 55%);
+    border-style: solid;
+}
